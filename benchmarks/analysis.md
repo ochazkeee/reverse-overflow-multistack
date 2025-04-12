@@ -10,11 +10,15 @@
 - **Reverse Overflow 방식**: 평균 Push=2999.8, 평균 Pop=999.8, 평균 시간=0.0212s, 평균 메모리=34.9KB
 - **Knuth Linked Stack**: 평균 Push=3007.4, 평균 Pop=1007.6, 평균 시간=0.0250s, 평균 메모리=524.3KB
 
+![Experiment 0](images/experiment_0.png)
+
 ### 실험 조건 2: PUSH_RATIO=[0.95, 0.0025, 0.0025, ..., 0.0025], NUM_STACKS=21, POP_PROB=0.5
 - **Refactor 방식**: 평균 Push=5008.2, 평균 Pop=4887.0, 평균 시간=0.0426s, 평균 메모리=83.1KB
 - **최적화된 Refactor 방식**: 평균 Push=4994.6, 평균 Pop=4844.2, 평균 시간=0.0354s, 평균 메모리=83.2KB
 - **Reverse Overflow 방식**: 평균 Push=5005.0, 평균 Pop=4872.6, 평균 시간=0.0334s, 평균 메모리=507.4KB
 - **Knuth Linked Stack**: 평균 Push=4995.0, 평균 Pop=4872.0, 평균 시간=0.0258s, 평균 메모리=2701.2KB
+
+![Experiment 0](images/experiment_1.png)
 
 ### 실험 조건 3: PUSH_RATIO=[0.5, 0.5, 0.0, ..., 0.0], NUM_STACKS=10, POP_PROB=0.8
 - **Refactor 방식**: 평균 Push=1993.8, 평균 Pop=1993.6, 평균 시간=0.0182s, 평균 메모리=41.1KB
@@ -22,17 +26,23 @@
 - **Reverse Overflow 방식**: 평균 Push=1993.0, 평균 Pop=1992.4, 평균 시간=0.0201s, 평균 메모리=254.8KB
 - **Knuth Linked Stack**: 평균 Push=1976.0, 평균 Pop=1974.6, 평균 시간=0.0181s, 평균 메모리=1350.2KB
 
+![Experiment 0](images/experiment_2.png)
+
 ### 실험 조건 4: PUSH_RATIO=[0.02, 0.02, ..., 0.02], NUM_STACKS=50, POP_PROB=0.5
 - **Refactor 방식**: 평균 Push=4966.8, 평균 Pop=4454.2, 평균 시간=0.0295s, 평균 메모리=165.1KB
 - **최적화된 Refactor 방식**: 평균 Push=5008.6, 평균 Pop=4476.8, 평균 시간=0.0297s, 평균 메모리=165.1KB
 - **Reverse Overflow 방식**: 평균 Push=4975.6, 평균 Pop=4453.2, 평균 시간=0.0405s, 평균 메모리=1006.6KB
 - **Knuth Linked Stack**: 평균 Push=5001.4, 평균 Pop=4465.0, 평균 시간=0.0296s, 평균 메모리=5404.4KB
 
+![Experiment 0](images/experiment_3.png)
+
 ### 실험 조건 5: PUSH_RATIO=[0.05, 0.05, ..., 0.05], NUM_STACKS=11, POP_PROB=0.2
 - **Refactor 방식**: 평균 Push=5073.4, 평균 Pop=2002.8, 평균 시간=1.0404s, 평균 메모리=83.0KB
 - **최적화된 Refactor 방식**: 평균 Push=5014.4, 평균 Pop=1976.8, 평균 시간=0.6730s, 평균 메모리=83.0KB
 - **Reverse Overflow 방식**: 평균 Push=8019.0, 평균 Pop=1977.8, 평균 시간=0.0248s, 평균 메모리=312.4KB
 - **Knuth Linked Stack**: 평균 Push=8001.4, 평균 Pop=1994.6, 평균 시간=0.0231s, 평균 메모리=2667.0KB
+
+![Experiment 0](images/experiment_4.png)
 
 
 ---
